@@ -25,6 +25,3 @@ quarto render
 
 Add new chapters by creating `.qmd` files and updating `_quarto.yml`. Include executable code blocks for examples.
 
-## License
-
-This work is licensed under the Creative Commons Attribution 4.0 International License. See [LICENSE.md](LICENSE.md) for full details.
