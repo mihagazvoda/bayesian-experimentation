@@ -81,5 +81,18 @@ To render the book (do it before opening a merge request):
 quarto render
 ````
 
+### If you prefer notebooks
+
+You can work in Jupyter Notebook / Lab and then [convert the file to quarto](https://quarto.org/docs/tools/jupyter-lab.html#converting-notebooks):
+
+```bash
+quarto convert basics-jupyter.ipynb # converts to qmd
+quarto convert basics-jupyter.qmd   # converts to ipynb
+```
+See `quarto convert` help for additional details on converting notebooks.
+
+
+
+
 
 
