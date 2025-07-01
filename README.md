@@ -11,23 +11,9 @@ Currently a collection of posts that may evolve into a comprehensive book.
 
 Contributions welcome.
 
-## Quick Start
-
-Preview book with live reload:
-
-```bash
-quarto preview
-```
-
-Build the book:
-
-```bash
-quarto render
-```
-
 ## Project Structure
 
-- `*.qmd` - Book chapters
+- `*.qmd` or `*.ipynb` - Book chapters
 - `_quarto.yml` - Book configuration
 - `_book/` - Generated HTML output
 
@@ -69,27 +55,40 @@ uv remove package-name
 
 ### Working with the Book
 
-Add new chapters by creating `.qmd` files and updating `_quarto.yml`. Include executable code blocks for examples.
+Add new chapters by creating `.qmd` or `.ipynb` files and updating `_quarto.yml`. 
+
+To render (or preview) only your file, use: 
 
 ```bash
-quarto preview
+uv run quarto render filename.qmd
 ```
 
-To render the book (do it before opening a merge request):
+```bash
+uv run quarto preview filename.qmd
+```
+
+For the whole book:
 
 ```bash
-quarto render
-````
+uv run quarto preview
+```
+
+or
+
+```bash
+uv run quarto render
+```
+
+
 
 ### If you prefer notebooks
 
 You can work in Jupyter Notebook / Lab and then [convert the file to quarto](https://quarto.org/docs/tools/jupyter-lab.html#converting-notebooks):
 
 ```bash
-quarto convert basics-jupyter.ipynb # converts to qmd
-quarto convert basics-jupyter.qmd   # converts to ipynb
+uv run quarto convert basics-jupyter.ipynb # converts to qmd
+uv run quarto convert basics-jupyter.qmd   # converts to ipynb
 ```
-See `quarto convert` help for additional details on converting notebooks.
 
 
 
