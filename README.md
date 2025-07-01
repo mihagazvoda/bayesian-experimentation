@@ -89,9 +89,3 @@ You can work in Jupyter Notebook / Lab and then [convert the file to quarto](htt
 uv run quarto convert basics-jupyter.ipynb # converts to qmd
 uv run quarto convert basics-jupyter.qmd   # converts to ipynb
 ```
-
-
-
-
-
-
