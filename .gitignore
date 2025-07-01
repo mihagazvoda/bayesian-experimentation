@@ -15,6 +15,7 @@ ENV/
 # Quarto
 /.quarto/
 _quarto.yml.bak
+intro_files/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
