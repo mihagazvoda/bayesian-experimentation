@@ -7,7 +7,7 @@ book:
   date: "6/29/2025"
   chapters:
     - index.qmd
-    - intro.qmd
+    - intro.ipynb
     - summary.qmd
     - references.qmd
 
@@ -18,8 +18,19 @@ format:
     theme:
       - cosmo
       - brand
-  pdf:
-    documentclass: scrreprt
+  # pdf:
+  #   documentclass: scrreprt
+
+jupyter: .venv/bin/python
+
+# Python kernel configuration
+# execute:
+#   echo: true
+#   eval: true
+#   error: false
+#   warning: false
+#   include: true
+#   cache: true
 
 
 
