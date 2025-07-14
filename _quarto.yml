@@ -7,6 +7,7 @@ book:
   date: "6/29/2025"
   chapters:
     - index.qmd
+    - welcome.qmd
     - intro.ipynb
     - summary.qmd
     - references.qmd

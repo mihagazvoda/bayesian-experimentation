@@ -1,0 +1,15 @@
+# Welcome {.unnumbered}
+
+Welcome to *Bayesian Experimentation*. This book is a work in progress.
+
+This book explains experimentation (A/B testing) through the lens of Bayesian statistics. It aims to be a single, concise reference for the most important ideas in regards to this topic. We believe this is needed because:
+
+* Due to lack of curriculum on the topic, there are still lots of "beginner" mistakes and fallacies going on.
+* Currently, relevant information is scattered across papers and blog posts.
+* Many resources focus on irrelevant aspects, such as showing equivalence with frequentist methods.
+
+We hope this book ends fruitless online debates: share the link and move on. Life is too short to argue on social media.
+
+## Contributing
+
+We welcome contributions! If you spot an error or want to add a section, open an issue or pull request on [GitHub](https://github.com/mihagazvoda/bayesian-experimentation).

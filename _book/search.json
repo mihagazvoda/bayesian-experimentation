@@ -10,6 +10,16 @@
     ]
   },
   {
+    "objectID": "welcome.html",
+    "href": "welcome.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "Contributing\nWelcome to Bayesian Experimentation. This book is a work in progress.\nThis book explains experimentation (A/B testing) through the lens of Bayesian statistics. It aims to be a single, concise reference for the most important ideas in regards to this topic. We believe this is needed because:\nWe hope this book ends fruitless online debates: share the link and move on. Life is too short to argue on social media.\nWe welcome contributions! If you spot an error or want to add a section, open an issue or pull request on GitHub.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
     "objectID": "intro.html",
     "href": "intro.html",
     "title": "1  Introduction",
@@ -24,7 +34,7 @@
     "href": "summary.html",
     "title": "2  Summary",
     "section": "",
-    "text": "In summary, this book has no content whatsoever.",
+    "text": "Book is currently being actively developed.\nThe structure of the book is as follows:\n\nIntroduction\nUnivariate setup (the inference problem)\n\nSetup (including closed-form solutions)\nPower analysis\nBusiness impact\nLearnings\nHeterogeneous treatment effects\nPeeking\nEVSI\nEven simpler shrinkage (Zwet’s way)\n\nBivariate setup (the extrapolation problem)\n\nSetup\nProxy metrics (whole framework)\n\nFramework\n\nAssume DGP\nSimulate\nApply decision making\nImpact, type M-error, type S error",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
     ]

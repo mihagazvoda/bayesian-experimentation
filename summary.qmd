@@ -1,3 +1,27 @@
 # Summary
 
-In summary, this book has no content whatsoever.
+Book is currently being actively developed. 
+
+The structure of the book is as follows:
+
+* [Introduction](intro.ipynb)
+* Univariate setup (the inference problem)
+  * Setup (including closed-form solutions)
+  * Power analysis
+  * Business impact
+  * Learnings
+  * Heterogeneous treatment effects
+  * Peeking
+  * EVSI
+  * Even simpler shrinkage (Zwet's way)
+  
+* Bivariate setup (the extrapolation problem)
+  * Setup
+  * Proxy metrics (whole framework)
+
+* Framework 
+  * Assume DGP
+  * Simulate
+  * Apply decision making
+  * Impact, type M-error, type S error
+  
